@@ -122,7 +122,21 @@ ul {
     text-align: center;
     margin-bottom: 15px;
 }
-.header__arrow-link {
+.direction__inner {
+    padding-top: 100px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 31px;
 }
-.header__arrow-img {
+.direction__item {
+    
+}
+.direction__img {
+    display: block;
+}
+.direction__text {
+    padding: 12px 19px 12px;
+    border: 1px solid #D9D9DE;
+    border-top: none;
 }
