@@ -644,9 +644,11 @@ ul {
     text-align: center;
   }
   .footer__info,
-  .footer__adress,
-  .footer__contacts {
+  .footer__adress {
     margin: 0 auto 25px;
+  }
+  .footer__contacts {
+    margin: 0 auto;
   }
 }
 
